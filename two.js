@@ -1,0 +1,10 @@
+var eid=101;
+var $ename="muni";
+var brand_name="nike";
+var rating=4;
+var available="true";
+console.log(eid);
+console.log($ename);
+console.log(brand_name);
+console.log(rating);
+console.log(available);
