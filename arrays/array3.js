@@ -1,0 +1,16 @@
+let a=[]
+a.push("moto","realme","vivo","samsung","iphone")
+console.log(a)
+a.pop()
+console.log(a)
+a.unshift("pubg")
+console.log(a)
+a.shift()
+console.log(a)
+a.reverse()
+console.log(a)
+a.splice(2,0,"king","queen")
+console.log(a)
+let b=[10,20,30,40,50]
+console.log(a,b)
+console.log(a.includes("moto"))
