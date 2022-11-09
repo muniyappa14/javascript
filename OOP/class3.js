@@ -24,11 +24,12 @@ withdrawl_amount(amt_withdraw){
 
 }
 let ab=new Account(101,"muni",2000)
+let c=new Account(102,"chirag",3000)
 console.log(ab)
 ab.get_balance()
 ab.deposit_amount(100)
 ab.withdrawl_amount(200)
-
+c.deposit_amount(500)
 
 
 

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function oncheck(){
+             let a=   document.getElementById("name").value
+             let b=document.getElementById("pas").value
+             if(a==""){
+                document.getElementById("abc").innerHTML="pls enter your name"
+             }
+             if(b==""){
+                document.getElementById("xyz").innerHTML="plz enter password"
+             }
+             return false
+            }
+
+        </script>
+    </head>
+    <body bgcolor="yellow">
+        <form onsubmit=" return oncheck()">
+            <label for=""> name :</label>
+            <input type="text" id="name"><br>
+            <span id="abc" style="color:rgb(43, 0, 255)"> </span><br>
+
+            <label> password:</label>
+            <input type="text" id="pas"><br>
+            <span style="color:red ;" id="xyz"></span><br>
+            <button> submit</button>
+        </form>
+    </body>
+</html>
