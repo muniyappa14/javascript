@@ -1,4 +1,4 @@
-  //promise:
+  //proomise method:
 
   let employee=[{id:101,name:"muni",salary:25000},
 {id:102,name:"chirag",salary:35000}]

@@ -3,15 +3,15 @@ var a="muniyappa"
 console.log(a.length)
 
 
-//to find the character at(var.charAt)
+//to find the character at(.charAt())
 console.log(a.charAt(0))
 
-//to find the index of a string(var.indexOf)
+//to find the index of a string(.indexOf())
 var b="chandan"
 console.log(b.indexOf('a'))
 
 
-//to find the last indexof of a string(var.lastindexOf)
+//to find the last indexof of a string(.lastindexOf())
 var c="muniyappa"
 console.log(c.lastIndexOf('p'))
 
@@ -29,7 +29,7 @@ console.log(d.slice(3,6))
 var e="muniyappa"
 console.log(e.includes('u'))
 
-//cocat:adding of two strings
+//concat:adding of two strings
 var a="chirag"
 var b="muniyappa"
 console.log(a.concat(b))

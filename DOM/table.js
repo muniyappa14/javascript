@@ -36,6 +36,4 @@ rows=rows+`<tr>
     //get the id from html (tbody) by (document.getelementbyid("imp")
     //.innerhtml is used to write the text
     document.getElementById("imp").innerHTML=rows
-
-
 }

@@ -1,3 +1,4 @@
-var a=10;
+ //adding the two variable numbers
+ var a=10;
 var b=20;
 console.log(a+b)
