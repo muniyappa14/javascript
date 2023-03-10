@@ -10,3 +10,4 @@ var x=(p,q,r)=>{return r(p,q)}
 
 let ab=x(10,30,(p,q)=>{return p*q})
 console.log(ab)
+

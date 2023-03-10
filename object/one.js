@@ -6,8 +6,10 @@ var a={id:101,name:"muni",salary:20000}
 //object.entries():assigning the values in array format
 console.log(Object.entries(a))
 
-//object.is():sued to compare two values is it same
+
+//object.is():used to compare two values is it same
 console.log(Object.is(a.id,a.name))
+
 
 //object.seal():it does notv allows new entries to the object.but it allows modification inside object
 //console.log(Object.seal(a))
