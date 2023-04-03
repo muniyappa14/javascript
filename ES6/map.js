@@ -5,6 +5,7 @@ names.map((name)=>{
 
                  })
 //advantages
+//iterates the array and execute the provided function
 //1.it is easy to copy
 //2.easy to create duplicate array
 let a=["muni","darshu","chiragraj"]
@@ -14,4 +15,5 @@ let b=a.map((elements)=>{
 })
 console.log(a)
 console.log(b)
+
 

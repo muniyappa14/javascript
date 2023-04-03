@@ -1,14 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>clock</title>
     <style>
         .clock{
             font-family: 'Times New Roman', Times, serif;
             font-size: 150px;
-            color: violet;
+            color: rgb(53, 48, 46);
             position: absolute;
             margin-left: 350px;
+            margin-right: 50px;
             margin-top: 200px;
              }
     </style>
@@ -23,10 +24,16 @@
       <div id="xy" class="clock" ></div>
       <script>
         
-        
+        let session="";
+          if(new Date().getHours()>=0&&new Date().getHours()<12){
+            session="AM"
+          }else{
+            session="PM"
+          }
         setInterval(()=>{ 
+          
              var a=new Date()
-             document.getElementById("xy").innerHTML= hours=a.getHours()+"*"+a.getMinutes()+"*"+a.getSeconds()
+             document.getElementById("xy").innerHTML= hours=a.getHours()+":"+a.getMinutes()+":"+a.getSeconds()+" : "+session;
 },[1000])
         
       </script>

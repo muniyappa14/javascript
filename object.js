@@ -5,4 +5,5 @@ name:"muni",
 location:"mandya",
 age:23}
 
+
 console.log(employee.id)
